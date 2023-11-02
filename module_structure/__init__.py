@@ -1,4 +1,5 @@
-from module_structure.tensor_operators import *
+from module_structure import tensor_operators
+
 
 __all__ = tensor_operators.__all__
 
@@ -10,5 +11,5 @@ COMMIT = 11
 # from main import *
 
 __version__ = f'{MAJOR}.{MINOR}.{COMMIT}'
-__authors__ = 'Emigdio de Moya Clark'
+__author__ = 'Emigdio de Moya Clark'
 __name__    = 'module_structure'
