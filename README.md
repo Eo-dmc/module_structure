@@ -8,11 +8,12 @@ You can install the TensorCalculator module using pip. It requires PyTorch to be
 
 ```bash
 pip install TensorCalculator
-
+```
 
 ## Usage
 Here's how you can use the TensorCalculator module:
 
+```bash
 import torch
 from TensorCalculator import TensorCalculator
 
@@ -56,7 +57,7 @@ print(ones_like_tensor)
 reference_tensor = torch.tensor([[0.1, 0.2], [0.3, 0.4]])
 zeros_like_tensor = calculator.tensor_zeros_like(reference_tensor)
 print(zeros_like_tensor)
-
+```
 
 ## Documentation
 For detailed information about the available functions and their parameters, please refer to the docstrings in the source code.
