@@ -1,13 +1,10 @@
 from setuptools import setup, find_packages
-# from module_structure import __author__,__version__,__name__
+from module_structure import __author__,__version__,__name__
 
-# VERSION = __version__
-# AUTHOR = __author__
-# NAME = __name__
+VERSION = __version__
+AUTHOR = __author__
+NAME = __name__
 
-VERSION = f'{MAJOR}.{MINOR}.{COMMIT}'
-AUTHOR = 'Emigdio de Moya Clark'
-NAME = 'module_structure'
 
 setup(
     name                        = NAME,
