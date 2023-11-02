@@ -17,9 +17,6 @@ setup(
     include_package_data        = True,
     package_data                = {'': ['resources/*.csv','resources/clusters/*.csv']},
     install_requires            = [
-                                    'pandas>=1.5.2',
-                                    'numpy>=1.26.1',
-                                    'tensorflow>=2.14.0',
                                     'torch>=1.11.0'
                                     ]
     )
