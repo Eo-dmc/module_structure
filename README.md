@@ -5,6 +5,7 @@ The TensorCalculator module is a Python library that allows you to perform vario
 ## Installation
 
 You can install the TensorCalculator module using pip. It requires PyTorch to be installed, so make sure you have PyTorch installed in your Python environment.
+Make sure to activate first your environment that includes the requirements.
 
 ```bash
 pip install -U git+https://github.com/Eo-dmc/module_structure.git@v1.0
